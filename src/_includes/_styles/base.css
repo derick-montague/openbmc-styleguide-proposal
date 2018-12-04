@@ -4,3 +4,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
+a:link,
+a:visited,
+a:focus,
+a:active {
+    color: var(--blue-40);
+}
+
+a:hover {
+    color: var(--blue-30);
+}

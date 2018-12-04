@@ -15,7 +15,8 @@ module.exports = function (eleventyConfig) {
         "liquid",
         "njk",
         "md",
-        "html"
+        "html",
+        "png"
     ],
     pathPrefix: '/openbmc-styleguide-proposal'
   }

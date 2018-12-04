@@ -17,11 +17,18 @@
     <style>{{ css | cssmin | safe }}</style>
 </head>
 <body>
-    <header>
-        <h1>{{ metadata.title }}</h1>
-        <h2>{{ metadata.subtitle }}</h2>
+    <header class="l-grid-main">
+        <div class="logo">
+            <span class="logo-wrapper">
+                <img src="{{ '/assets/img/openBMC-logo.png' | url }}" height="100" width="100" alt="OpenBMC">
+            <span>
+        </div>
+        <h1>
+            {{ metadata.title }}
+            <span>{{ metadata.subtitle }}</span>
+        </h1>
     </header>
-    <div class="l-main-grid">
+    <div class="l-grid-main">
         {% include "layouts/nav.njk" %}
         <main>
             {{ content | safe }}

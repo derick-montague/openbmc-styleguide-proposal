@@ -13,5 +13,15 @@
             {%- endfor -%}
             </ul>
         </li>
+        <li>
+            <h2>Components</h2>
+            <ul>
+            {%- for nav in collections.componentsNav -%}
+            	<li class="nav-item{% if nav.url == page.url %} current{% endif %}">
+                    <a href="{{ nav.url | url }}">{{ nav.data.navTitle }}</a>
+                </li>
+            {%- endfor -%}
+            </ul>
+        </li>
     </ul>
 </nav>
