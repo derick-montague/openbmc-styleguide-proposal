@@ -1,5 +1,6 @@
 {
-    "title": "OpenBMC Style Guide",
+    "title": "OpenBMC",
+    "subtitle": "Style Guide",
     "url": "https://derick-montague.github.io/openbmc-styleguide-proposal/",
     "author": {
       "name": "Derick Montague",

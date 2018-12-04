@@ -17,6 +17,6 @@ module.exports = function (eleventyConfig) {
         "md",
         "html"
     ],
-    pathPrefix: '/'
+    pathPrefix: '/openbmc-styleguide-proposal'
   }
-  };
+};
