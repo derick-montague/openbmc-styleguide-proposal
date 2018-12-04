@@ -1,0 +1,35 @@
+.nav-primary ul {
+    display: block;
+    margin: 2rem 0 0 2rem;
+    padding: 0;
+}
+
+.nav-primary ul ul {
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
+.nav-primary h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: .25rem;
+}
+
+.nav-primary li {
+    display: block;
+    margin: 0 0 .5rem;
+}
+
+.nav-primary li.current a::before {
+    content: '\000BB';
+    display: inline-block;
+    margin-right: .25rem;
+}
+
+.nav-primary li.current a {
+    color: var(--gray-100);
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}

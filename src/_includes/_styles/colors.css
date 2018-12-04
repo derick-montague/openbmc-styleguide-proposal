@@ -1,0 +1,49 @@
+:root {
+     /* Base Colors */
+    --blue-100: #1b2834;
+    --blue-50: #1d3458;
+    --blue-40: #3c6df0;
+    --blue-30: #7295f1;
+    --blue-20: #ccd7f4;
+    --gray-100: #333;
+    --gray-80: #666;
+    --gray-60: #999;
+    --gray-40: #ccc;
+    --gray-30: #dcdee0;
+    --gray-20: #f0f2f5;
+    --gray-10: #fafbfc;
+    --gray-0: #fff;
+
+    /* Status Colors */
+    --teal-70: #098292;
+    --teal-50: #00b6cb;
+    --teal-20: #ccf0f5;
+    --green-50: #34bc6e;
+    --green-20: #c2eed5;
+    --yellow-70: #db7c00;
+    --yellow-50:#ffb000;
+    --yellow-40:#ffdf99;
+    --yellow-20:#fdf7df;
+    --red-50:#e62325;
+    --red-20:#fad3d3;
+}
+
+.blue-100,
+.blue-50,
+.blue-40,
+.blue-30,
+.gray-100,
+.gray-80,
+.teal-70,
+.teal-50,
+.green-50,
+.yellow-70,
+.yellow-50,
+.red-50 {
+    color: var(--gray-0);
+}
+
+.gray-10,
+.gray-0 {
+    box-shadow: 0 0 0 1px var(--gray-30);
+}

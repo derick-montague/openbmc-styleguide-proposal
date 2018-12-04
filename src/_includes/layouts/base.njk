@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ title }}</title>
+    {%- set css %}
+        {% include '_styles/colors.css' %}
+        {% include '_styles/base.css' %}
+        {% include '_styles/typography.css' %}
+        {% include '_styles/layout.css' %}
+        {% include '_styles/utilities.css' %}
+        {% include '_styles/header.css' %}
+        {% include '_styles/nav.css' %}
+    {% endset %}
+    <style>{{ css | cssmin | safe }}</style>
+</head>
+<body>
+    <header>
+        <h1>OpenBMC</h1>
+        <h2>Style Guide</h2>
+    </header>
+    <div class="l-main-grid">
+        {% include "layouts/nav.njk" %}
+        <main>
+            {{ content | safe }}
+        </main>
+    </div>
+    <footer></footer>
+</body>
+</html>

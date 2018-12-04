@@ -1,0 +1,114 @@
+{
+    "base": {
+        "blue": [
+            {
+                "name": "blue-100",
+                "hex": "1b2834"
+            },
+            {
+                "name": "blue-50",
+                "hex": "1d3458"
+            },
+            {
+                "name": "blue-40",
+                "hex": "3c6df0"
+            },
+            {
+                "name": "blue-30",
+                "hex": "7295f1"
+            },
+            {
+                "name": "blue-20",
+                "hex": "ccd7f4"
+            }
+        ],
+        "gray": [
+            {
+                "name": "gray-100",
+                "hex": "333"
+            },
+            {
+                "name": "gray-80",
+                "hex": "666"
+            },
+            {
+                "name": "gray-60",
+                "hex": "999"
+            },
+            {
+                "name": "gray-40",
+                "hex": "ccc"
+            },
+            {
+                "name": "gray-30",
+                "hex": "dcdee0"
+            },
+            {
+                "name": "gray-20",
+                "hex": "f0f2f5"
+            },
+            {
+                "name": "gray-10",
+                "hex": "fafbfc"
+            },
+            {
+                "name": "gray-0",
+                "hex": "fff"
+            }
+        ]
+    },
+    "status": {
+        "teal": [
+            {
+                "name": "teal-70",
+                "hex": "098292" 
+            },
+            {
+                "name": "teal-50",
+                "hex": "00b6cb"
+            },
+            {
+                "name": "teal-20",
+                "hex": "ccf0f5"
+            }
+        ],
+        "green": [
+            {
+                "name": "green-50",
+                "hex": "34bc6e"
+            },
+            {
+                "name": "green-20",
+                "hex": "c2eed5"
+            }
+        ],
+        "yellow": [
+            {
+                "name": "yellow-70",
+                "hex": "db7c00"
+            },
+            {
+                "name": "yellow-50",
+                "hex": "ffb000"
+            },
+            {
+                "name": "yellow-40",
+                "hex": "ffdf99"
+            },
+            {
+                "name": "yellow-20",
+                "hex": "fdf7df"
+            }
+        ],
+        "red": [
+            {
+                "name": "red-50",
+                "hex": "e62325"
+            },
+            {
+                "name": "red-20",
+                "hex": "fad3d3"
+            }
+        ]
+    }
+}   

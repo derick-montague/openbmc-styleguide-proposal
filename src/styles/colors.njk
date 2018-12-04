@@ -1,0 +1,69 @@
+---
+title: Styles - Colors
+layout: layouts/page.njk
+heading: Colors
+---
+
+<p>
+    OpenBMC GUI color is comprised of different ranges of blue. Any color combination within the 
+    palette must comply with at least WCAG AA standard contrast raios. Status cololrs are used to
+    specifically focus on the health and status of the system. Use of the status color should be
+    consistent where green represents 'Good', yellow represents 'Warning', and red represents
+    'Danger'.
+</p>
+
+<h2>Base Colors</h2>
+<ul class="l-grid-basic">
+{% for color in colors.base.blue %}
+   <li class="align-ctr">
+        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem;">#{{ color.hex}}</div>
+        {{ color.name }}
+    </li>
+{% endfor %}
+</ul>
+
+<ul class="l-grid-basic">
+{% for color in colors.base.gray %}
+  <li class="align-ctr">
+        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
+        {{ color.name }}
+    </li>
+{% endfor %}
+</ul> 
+
+<h2>Status Colors</h2>
+<ul class="l-grid-basic">
+{% for color in colors.status.teal %}
+   <li class="align-ctr">
+        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
+        {{ color.name }}
+    </li>
+{% endfor %}
+</ul>
+
+<ul class="l-grid-basic">
+{% for color in colors.status.green %}
+   <li class="align-ctr">
+        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
+        {{ color.name }}
+    </li>
+{% endfor %}
+</ul>
+
+<ul class="l-grid-basic">
+{% for color in colors.status.yellow %}
+   <li class="align-ctr">
+        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
+        {{ color.name }}
+    </li>
+{% endfor %}
+</ul>
+
+<ul class="l-grid-basic">
+{% for color in colors.status.red %}
+   <li class="align-ctr">
+        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
+        {{ color.name }}
+    </li>
+{% endfor %}
+</ul>

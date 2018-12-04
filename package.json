@@ -1,0 +1,25 @@
+{
+  "name": "openbmc-styleguide-proposal",
+  "version": "1.0.0",
+  "description": "## 11ty.io",
+  "main": "docs/index.html",
+  "scripts": {
+    "develop": "npx eleventy --serve",
+    "build": "npx eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derick-montague/openbmc-styleguide-proposal.git"
+  },
+  "author": "Derick Montague",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derick-montague/openbmc-styleguide-proposal/issues"
+  },
+  "homepage": "https://github.com/derick-montague/openbmc-styleguide-proposal#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.6.0",
+    "clean-css": "^4.2.1"
+  }
+}

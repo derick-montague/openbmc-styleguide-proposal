@@ -1,0 +1,16 @@
+<nav class="nav-primary">
+    <ul>
+        <li {% if page.url == "/" %} class="current" {% endif %}>
+            <a href="/">Getting Started</a>
+        </li>
+        <li>
+            <h2>Styles</h2>
+            <ul>
+                <li {% if page.url == "/styles/" %} class="current" {% endif %}><a href="/styles/">Overview</a></li>
+                <li {% if page.url == "/styles/colors/" %} class="current" {% endif %}><a href="/styles/colors/">Colors</a></li>
+                <li {% if page.url == "/styles/typography/" %} class="current" {% endif %}><a href="/styles/typography/">Typography</a></li>
+                <li {% if page.url == "/styles/iconography/" %} class="current" {% endif %}><a href="/styles/iconography/">Iconography</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
