@@ -4,15 +4,55 @@
     grid-template-columns: 200px 800px;
 }
 
-.l-grid-basic {
+.color-grid {
     display: grid;
     grid-gap: .5rem;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 90px);
+    grid-auto-flow: row;
+    align-items: center;
     padding: 0;
-    margin: 0;
+    margin: 0 0 1rem;
 }
 
-.l-grid-basic li {
+/* Grid for Colors Layout */
+.color-grid-item {
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.color-grid-item .color-box {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Grid for Typography Layout */
+.typography-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+
+}
+
+.typography-grid-example {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray-20);
+    padding: 2rem;
+    margin: 1rem 0 4rem;
+    text-align: center;
+}
+
+.typography-grid-desc h3 {
+    border-top: 2px solid var(--blue-50);
+    padding-top: .5rem;
+}
+
+.typography-grid-desc p {
+    margin: 0;
 }

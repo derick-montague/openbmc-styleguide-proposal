@@ -1,4 +1,6 @@
 body {
+    background: var(--gray-0);
+    color: var(--gray-80);
     font: 16px/1.5 helvetica, arial, sans-serif;
 }
 

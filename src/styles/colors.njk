@@ -15,57 +15,57 @@ navTitle: Colors
 </p>
 
 <h2>Base Colors</h2>
-<ul class="l-grid-basic">
+<ul class="color-grid">
 {% for color in colors.base.blue %}
-   <li class="align-ctr">
-        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem;">#{{ color.hex}}</div>
-        {{ color.name }}
+   <li class="color-grid-item">
+        <div class="color-box {{color.name}}" style="background: #{{ color.hex }};">#{{ color.hex}}</div>
+        <span>{{ color.name }}</span>
     </li>
 {% endfor %}
 </ul>
 
-<ul class="l-grid-basic">
+<ul class="color-grid">
 {% for color in colors.base.gray %}
-  <li class="align-ctr">
-        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
-        {{ color.name }}
+   <li class="color-grid-item">
+        <div class="color-box {{color.name}}" style="background: #{{ color.hex }};">#{{ color.hex}}</div>
+        <span>{{ color.name }}</span>
     </li>
 {% endfor %}
 </ul> 
 
 <h2>Status Colors</h2>
-<ul class="l-grid-basic">
+<ul class="color-grid">
 {% for color in colors.status.teal %}
-   <li class="align-ctr">
-        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
-        {{ color.name }}
+    <li class="color-grid-item">
+        <div class="color-box {{color.name}}" style="background: #{{ color.hex }};">#{{ color.hex}}</div>
+        <span>{{ color.name }}</span>
     </li>
 {% endfor %}
 </ul>
 
-<ul class="l-grid-basic">
+<ul class="color-grid">
 {% for color in colors.status.green %}
-   <li class="align-ctr">
-        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
-        {{ color.name }}
+    <li class="color-grid-item">
+        <div class="color-box {{color.name}}" style="background: #{{ color.hex }};">#{{ color.hex}}</div>
+        <span>{{ color.name }}</span>
     </li>
 {% endfor %}
 </ul>
 
-<ul class="l-grid-basic">
+<ul class="color-grid">
 {% for color in colors.status.yellow %}
-   <li class="align-ctr">
-        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
-        {{ color.name }}
+    <li class="color-grid-item">
+        <div class="color-box {{color.name}}" style="background: #{{ color.hex }};">#{{ color.hex}}</div>
+        <span>{{ color.name }}</span>
     </li>
 {% endfor %}
 </ul>
 
-<ul class="l-grid-basic">
+<ul class="color-grid">
 {% for color in colors.status.red %}
-   <li class="align-ctr">
-        <div class="{{color.name}}" style="background: #{{ color.hex }}; padding: 3rem 1.5rem; text-align: center;">#{{ color.hex}}</div>
-        {{ color.name }}
+    <li class="color-grid-item">
+        <div class="color-box {{color.name}}" style="background: #{{ color.hex }};">#{{ color.hex}}</div>
+        <span>{{ color.name }}</span>
     </li>
 {% endfor %}
 </ul>
