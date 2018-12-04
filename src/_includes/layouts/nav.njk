@@ -6,11 +6,17 @@
         <li>
             <h2>Styles</h2>
             <ul>
-                <li {% if page.url == "/styles/" %} class="current" {% endif %}><a href="/styles/">Overview</a></li>
-                <li {% if page.url == "/styles/colors/" %} class="current" {% endif %}><a href="/styles/colors/">Colors</a></li>
-                <li {% if page.url == "/styles/typography/" %} class="current" {% endif %}><a href="/styles/typography/">Typography</a></li>
-                <li {% if page.url == "/styles/iconography/" %} class="current" {% endif %}><a href="/styles/iconography/">Iconography</a></li>
+            {%- for nav in collections.stylesNav -%}
+            	<li class="nav-item{% if nav.url == page.url %} current{% endif %}">
+                    <a href="{{ nav.url | url }}">{{ nav.data.navTitle }}</a>
+                </li>
+            {%- endfor -%}
             </ul>
         </li>
     </ul>
 </nav>
+{#                 <li {% if page.url == "/styles/" %} class="current" {% endif %}><a href="/styles/">Overview</a></li>
+                <li {% if page.url == "/styles/colors/" %} class="current" {% endif %}><a href="/styles/colors/">Colors</a></li>
+                <li {% if page.url == "/styles/typography/" %} class="current" {% endif %}><a href="/styles/typography/">Typography</a></li>
+                <li {% if page.url == "/styles/iconography/" %} class="current" {% endif %}><a href="/styles/iconography/">Iconography</a></li>
+ #}

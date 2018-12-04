@@ -9,14 +9,14 @@ module.exports = function (eleventyConfig) {
   return {
       dir: {
         input: "src",
-        output: "docs"
+        output: "docs"  
       },
       templateFormats: [
         "liquid",
         "njk",
         "md",
-        "html",
-        "png"
-    ]
+        "html"
+    ],
+    pathPrefix: '/'
   }
   };
