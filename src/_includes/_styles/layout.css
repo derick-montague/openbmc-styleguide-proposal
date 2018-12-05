@@ -1,7 +1,7 @@
 .l-grid-main {
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: 200px 800px;
+    grid-template-columns: 200px 760px;
 }
 
 .color-grid {
@@ -39,9 +39,8 @@
 }
 
 .typography-grid-example {
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: center;
     background: var(--gray-20);
     padding: 2rem;
     margin: 1rem 0 4rem;
