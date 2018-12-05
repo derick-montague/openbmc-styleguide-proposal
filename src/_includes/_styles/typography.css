@@ -13,7 +13,6 @@ body {
 
 h1,
 .h1 {
-    color: var(--gray-100);
     font-size: 2.25rem;
     font-weight: var(--fw-med);
     line-height: 1.25;
@@ -21,7 +20,6 @@ h1,
 
 h2,
 .h2 {
-    color: var(--gray-100);
     font-size: 1.25rem;
     font-weight: var(--fw-bold);
     line-height: 1.25;
@@ -29,7 +27,6 @@ h2,
 
 h3,
 .h3 {
-    color: var(--gray-100);
     font-size: 1rem;
     font-weight: var(--fw-bold);
     line-height: 1.25;
@@ -37,7 +34,6 @@ h3,
 
 h4,
 .h4 {
-    color: var(--gray-100);
     font-size: 0.875rem;
     font-weight: var(--fw-bold);
     line-height: 1.25;
@@ -48,7 +44,6 @@ h5,
 h6,
 .h6,
 .notification {
-    color: var(--gray-100);
     font-size: 0.875rem;
     font-weight: var(--fw-medium);
     line-height: 1.25;
